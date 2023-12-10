@@ -103,6 +103,7 @@ padding-right: 50px;
 }
 
 .site-header-logo-link {
+  flex-shrink: 0;
   display: flex;
   text-decoration: none;
 }
@@ -134,6 +135,7 @@ padding-right: 50px;
   text-decoration: none;
   text-transform: uppercase;
   color:var(--text-color);
+  white-space: nowrap;
 }
 .sitenav-link:hover{
   color:var(--accent-color-green);
